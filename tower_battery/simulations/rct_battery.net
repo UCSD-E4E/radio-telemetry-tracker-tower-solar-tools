@@ -1,0 +1,19 @@
+* C:\Users\vbogd\OneDrive\Documents\rct_tower_battery\simulations\rct_battery.asc
+V1 12v_l 0 PWL(0 12.6 178000 12.05 178001 0)
+V2 12v_r 0 PWL(176800 0 176801 12.6)
+D1 12v_l d_l RB238T-40NZ
+D2 12v_r d_r RB238T-40NZ
+S1 d_l v_dc N001 0 sw1
+S2 d_r v_dc N002 0 sw1
+V3 N001 0 PWL(177900 1 177901 0)
+V4 N002 0 PWL(176900 0 176901 1)
+D3 12v_l d_l RB238T-40NZ
+D4 12v_r d_r RB238T-40NZ
+I1 v_dc 0 3
+.model D D
+.lib C:\Users\vbogd\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 180000 0 .1
+.model sw1 SW(Ron=1n Roff=1Meg Vt=.01 Vh= 0)
+.temp 90
+.backanno
+.end
