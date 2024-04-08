@@ -2,12 +2,12 @@ import csv
 
 
 
-leadAcidBatterySize = 65 # in amp hours
+leadAcidBatterySize = 75 # in amp hours
 energyStored = leadAcidBatterySize * 12.1 # average voltage from 100% to 50% * AH of battery
 maxEnergyStored = energyStored # assuming battery starts with maximum energy
 chargeControllerEfficiency = 0.95 # from data sheet
 leadAcidChargingEfficiency = 0.85 # normal for lead acid batteries
-extraOverhead = 1.05 # to account for extra loss from wires
+extraOverhead = 1.05 # to account for extra loss from wires, solar panel nonidealities
 systemLosses = chargeControllerEfficiency * leadAcidChargingEfficiency
 timeUnit = 5 / 60 # 5 minutes, in hours
 
@@ -21,7 +21,7 @@ with open('data.csv', mode = 'r') as file:
     csvFile = csv.reader(file)
     for line in csvFile:
         # calculate energy change over timeUnit period
-        energyStored = energyStored + float(line[0]) * timeUnit * systemLosses - energyConsumed * timeUnit * extraOverhead
+        energyStored = energyStored + float(line[0]) * timeUnit * systemLosses / extraOverhead - energyConsumed * timeUnit
 
         # handle if battery is empty, full, or could be damaged
         if energyStored > maxEnergyStored:
