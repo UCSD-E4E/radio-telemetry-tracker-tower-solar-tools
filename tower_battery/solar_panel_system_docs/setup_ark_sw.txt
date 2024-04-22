@@ -1,0 +1,6 @@
+1
+2
+9
+2
+ark_sw_dexter_b_florence_data.csv
+first 3 rows are column mappings for csv files (in order: simple date, temperature, solar radiation), 4th row is the number of solar panels, 5th row is csv file name
