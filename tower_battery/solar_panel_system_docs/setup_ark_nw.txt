@@ -1,7 +1,0 @@
-1
-2
-16
-17
-ark_nw_hunstville_hickory_hills_data.csv
-288
-first 3 rows are column mappings for csv files (in order: simple date, temperature, solar radiation), 4th row is the number of solar panels, 5th row is csv file name

@@ -1,0 +1,8 @@
+{
+    "date_col": 1,
+    "temp_col": 2,
+    "sunl_col": 9,
+    "num_panels": 12,
+    "data_file": "ark_ne_newport_airport_data.csv",
+    "points_per_day": 24
+}

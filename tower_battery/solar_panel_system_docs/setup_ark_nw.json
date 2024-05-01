@@ -1,0 +1,8 @@
+{
+    "date_col": 1,
+    "temp_col": 2,
+    "sunl_col": 16,
+    "num_panels": 17,
+    "data_file": "ark_nw_hunstville_hickory_hills_data.csv",
+    "points_per_day": 288
+}

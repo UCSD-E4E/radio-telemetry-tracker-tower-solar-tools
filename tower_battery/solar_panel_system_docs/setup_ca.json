@@ -1,0 +1,8 @@
+{
+    "date_col": 1,
+    "temp_col": 2,
+    "sunl_col": 15,
+    "num_panels": 18,
+    "data_file": "ca_safari_park_data.csv",
+    "points_per_day": 288
+}
