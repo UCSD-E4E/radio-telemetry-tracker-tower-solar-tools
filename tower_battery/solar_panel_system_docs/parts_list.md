@@ -9,4 +9,8 @@ For Safari Park, Escondido Ca
 
 4. [1x 150 ah deep cycle SLA](https://www.homedepot.com/p/MIGHTY-MAX-BATTERY-12V-150AH-SLA-Replacement-Battery-for-150ah-Deep-Cycle-Rechargeable-Battery-MAX3941581/322002120?source=shoppingads&locale=en-US&srsltid=AfmBOoqWpyAxVtxyfff5KhM6akXlFEua6ftMqvfaC1VMXUc18HWvKmIIevc)
 
-Total Cost: $2577
+5. [2x 3 to 1 branch connector 20A](https://windandsolar.com/3-way-mc4-solar-panel-branch-cable-connector-set/)
+
+6. [1x 2 to 1 branch connector 50A](https://powerwerx.com/solar-mc4-tbranch-splitter-2to1)
+
+Total Cost: $2587
