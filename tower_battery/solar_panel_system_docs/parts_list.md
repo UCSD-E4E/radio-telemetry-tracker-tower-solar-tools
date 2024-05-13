@@ -13,4 +13,6 @@ For Safari Park, Escondido Ca
 
 6. [1x 2 to 1 branch connector 50A](https://powerwerx.com/solar-mc4-tbranch-splitter-2to1)
 
-Total Cost: $2587
+7. [1x 8awg wire with mc4 connectors](https://www.amazon.com/WindyNation-Extension-Connector-Variety-Available/dp/B01L6OU5EY/ref=sr_1_2?dib=eyJ2IjoiMSJ9.oGZ8MD_X_D5OVz696jyYJJqOorxMA9nDSr_UIE7B5s8fAAlePYJ09aCv64LPZHRMtUV3suCR_EFUguNuP9ayD2QXu4QMFF_l5-bRcX7nwgn5R2-dgSUQESe3B3ZXLPLvzy2yioEc9kXpd9aBueQMgvmmDqWl1KrGoAa57ZDDKsREqVBCW_q9h4P96h2Xn7VuXebu-IVv7qSCMkVYDLCdQCOJA1VGQ0p3-Sb64d3XsMQ.bHviJFzaBO95VlavGkwFrdkJXU9muyU3IwE4YESicmU&dib_tag=se&keywords=8+gauge+mc4&qid=1715620751&sr=8-2)
+
+Total Cost: $2615
